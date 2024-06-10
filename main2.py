@@ -21,8 +21,8 @@ def spin_row():
 #     return [random.choice(symbols) for _ in range(3)]
 
 
-def print_row():
-    pass
+def print_row(row):
+    print(" | ".join(row))
 
 def get_payout():
     pass
@@ -50,7 +50,8 @@ def main():
         # Update balance (this is a placeholder, update according to game logic)
             
         row=spin_row()
-        print(row)
+        print('spining......\n')
+        print_row(row)
         
 
 if __name__ == '__main__':
