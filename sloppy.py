@@ -46,7 +46,8 @@ def main():
                 print("Bet amount exceeds current balance.")
                 continue
             
-        balance -= bet  # Update balance (this is a placeholder, update according to game logic)
+        balance -= bet  
+        # Update balance (this is a placeholder, update according to game logic)
             
         row=spin_row()
         print(row)
